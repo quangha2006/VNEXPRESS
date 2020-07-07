@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">VNEXPRESS</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news">Trang Nhất</string>
+    <string name="news1">Mới Nhất</string>
+    <string name="news2">Thời Sự</string>
+    <string name="windows">Góc Nhìn</string>
+    <string name="world">Thế Giới</string>
+    <string name="business">Kinh Doanh</string>
+    <string name="relax">Giải Trí</string>
+    <string name="sport">Thể Thao</string>
+    <string name="law">Pháp Luật</string>
 </resources>
