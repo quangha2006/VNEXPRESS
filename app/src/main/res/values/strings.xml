@@ -11,5 +11,6 @@
     <string name="business">Kinh Doanh</string>
     <string name="relax">Giải Trí</string>
     <string name="sport">Thể Thao</string>
+    <string name="edu">Giáo Dục</string>
     <string name="law">Pháp Luật</string>
 </resources>

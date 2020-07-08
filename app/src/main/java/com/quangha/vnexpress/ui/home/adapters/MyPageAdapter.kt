@@ -11,17 +11,17 @@ class MyPageAdapter(fm: FragmentManager, behavior: Int, private val context: Con
     FragmentPagerAdapter(fm, behavior) {
     override fun getItem(position: Int): Fragment {
         return when (position) {
-            0 -> FragmentNews()
-            1 -> FragmentNews()
-            2 -> FragmentNews()
-            3 -> FragmentNews()
-            4 -> FragmentNews()
-            5 -> FragmentNews()
-            6 -> FragmentNews()
-            7 -> FragmentNews()
-            8 -> FragmentNews()
-            9 -> FragmentNews()
-            else -> return FragmentNews()
+            0 -> FragmentNews("/rss/tin-noi-bat.rss")
+            1 -> FragmentNews("/rss/tin-moi-nhat.rss")
+            2 -> FragmentNews("/rss/thoi-su.rss")
+            3 -> FragmentNews("/rss/tam-su.rss")
+            4 -> FragmentNews("/rss/the-gioi.rss")
+            5 -> FragmentNews("/rss/kinh-doanh.rss")
+            6 -> FragmentNews("/rss/giai-tri.rss")
+            7 -> FragmentNews("/rss/the-thao.rss")
+            8 -> FragmentNews("/rss/giao-duc.rss")
+            9 -> FragmentNews("/rss/phap-luat.rss")
+            else -> return FragmentNews("/rss/tin-moi-nhat.rss")
         }
 
     }
@@ -40,7 +40,7 @@ class MyPageAdapter(fm: FragmentManager, behavior: Int, private val context: Con
             5 -> context.getString(R.string.business)
             6 -> context.getString(R.string.relax)
             7 -> context.getString(R.string.sport)
-            8 -> context.getString(R.string.law)
+            8 -> context.getString(R.string.edu)
             9 -> context.getString(R.string.law)
             else -> return "unknown"
         }
